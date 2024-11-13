@@ -422,14 +422,14 @@ app.post("/customerDetail", auth, (req, res, next) => {
     `;
 
     const customerStatsQuery = `
-  SELECT
-    COUNT(*) AS totalTransactions,
-    SUM(CASE WHEN delete_flag = false OR delete_flag IS NULL THEN amount ELSE 0 END) AS totalAmount
-  FROM
-    transactions
-  WHERE
-    customer_id = ? AND (delete_flag = false OR delete_flag IS NULL);
-`;
+      SELECT
+        COUNT(*) AS totalTransactions,
+        SUM(CASE WHEN delete_flag = false OR delete_flag IS NULL THEN amount ELSE 0 END) AS totalAmount
+      FROM
+        transactions
+      WHERE
+        customer_id = ?
+    `;
 
     const customerInfoPromise = new Promise((resolve, reject) => {
       connection.query(customerInfoQuery, [customerId], (error, results) => {

@@ -1,0 +1,136 @@
+.h1style {
+  margin-top: 7rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.loginStaffId {
+  padding-top: 1rem;
+  text-align: right;
+  font-size: 1.4rem;
+}
+
+.staffUi {
+  padding-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 4rem;
+}
+.staffUi button {
+  width: 30%;
+  font-weight: bold;
+}
+
+.addBuyConte {
+  background-color: rgb(248, 248, 218);
+  width: 70%;
+  margin: 0 auto;
+  padding: 3rem 5rem 3rem 5rem;
+}
+.addBuyConte div {
+  width: 80%;
+  margin: 0 auto;
+}
+.addBuyConte div label {
+  font-size: 1.6rem;
+}
+.addBuyConte div input {
+  margin-top: 1rem;
+}
+.addBuyConte .addBuyButton {
+  width: 40%;
+  margin: 5rem auto;
+}
+.addBuyConte .addBuyButton button {
+  font-weight: bold;
+}
+
+.customerDetailWrap {
+  width: 80%;
+  margin: 4rem auto;
+}
+
+.h2Style {
+  font-size: 2rem;
+}
+
+.customerDetailTable {
+  width: 100%;
+  margin-top: 2rem;
+  border: 1px solid black;
+}
+.customerDetailTable th {
+  padding: 1rem;
+  font-size: 1.6rem;
+}
+.customerDetailTable td {
+  font-size: 1.6rem;
+}
+
+.transactionInfoWrap {
+  display: flex;
+  font-size: 1.6rem;
+  justify-content: right;
+}
+.transactionInfoWrap p {
+  padding-left: 3rem;
+}
+
+.customerTransactionTable {
+  width: 100%;
+  margin-top: 2rem;
+  border: 1px solid black;
+}
+.customerTransactionTable th {
+  padding: 1rem;
+  font-size: 1.6rem;
+  background-color: rgb(181, 255, 189);
+}
+.customerTransactionTable td {
+  font-size: 1.6rem;
+  padding: 1rem;
+  border: 1px solid black;
+}
+.customerTransactionTable .transactionTableDate {
+  text-align: center;
+}
+.customerTransactionTable .transactionTablePrice {
+  text-align: right;
+}
+.customerTransactionTable .transactionTableId {
+  text-align: center;
+}
+
+.h2StylePriceAdd {
+  margin-top: 10rem;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.addPriceP {
+  margin-top: 5rem;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+.noneTransaction {
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+.editButton {
+  padding: 3rem;
+  width: 30%;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.deleteWrap {
+  margin: 3rem;
+}
+.deleteWrap div label {
+  font-size: 2rem;
+}

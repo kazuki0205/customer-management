@@ -1,0 +1,129 @@
+@charset "UTF-8";
+.box1 {
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: #1b2137;
+  height: 115vh;
+  color: #fff;
+}
+.box1 p {
+  font-size: 1.3rem;
+  color: #e7cb97;
+}
+.box1 div input {
+  margin-top: 0.5rem;
+  background-color: #424a67;
+  border: none;
+  color: #fff;
+}
+.box1 div label {
+  margin-top: 1.5rem;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.registerWrap {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.h1style {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.nameWrap {
+  display: flex;
+}
+.nameWrap div {
+  margin-right: 3rem;
+  width: 100%;
+}
+
+.inputLast {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.inputLast div {
+  width: 30%;
+}
+.inputLast div input {
+  margin-right: 5rem;
+}
+
+input[type=text]:focus {
+  outline: solid 2px #b4925a;
+}
+
+input[type=date]:focus {
+  outline: solid 2px #b4925a;
+}
+
+input[type=email]:focus {
+  outline: solid 2px #b4925a;
+}
+
+input[type=number]:focus {
+  outline: solid 2px #b4925a;
+}
+
+.zipcodeWrap {
+  display: flex;
+  align-items: center;
+}
+.zipcodeWrap div {
+  width: 85%;
+}
+.zipcodeWrap button {
+  margin-top: 3rem;
+  height: 5rem;
+  width: 45%;
+}
+
+.selectbox {
+  margin-top: 2rem;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
+
+.selectbox::after {
+  position: absolute;
+  right: 15px;
+  width: 10px;
+  height: 7px;
+  background-color: #535353;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  content: "";
+  pointer-events: none;
+}
+
+.selectbox select {
+  margin-left: 2rem;
+  appearance: none;
+  min-width: 230px;
+  height: 2.8em;
+  padding: 0.4em calc(0.8em + 30px) 0.4em 0.8em;
+  border: none;
+  border-bottom: 3px solid #2d3348;
+  background-color: #424a67;
+  color: #fff;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.selectbox select:focus {
+  outline: none;
+}
+
+.nextButton {
+  margin: 3rem auto;
+  width: 40%;
+  height: 4rem;
+}
+
+/* 他のスタイルはそのまま */
